@@ -16,6 +16,8 @@
 #include <string.h>
 #include <windows.h>
 
+#pragma warning (disable: 4996)
+
 PAConfigSolutionDlg::PAConfigSolutionDlg(QWidget* parent) : QDialog(parent)
 {
 	setWindowTitle(tr("Create PA Inspect Solution"));
