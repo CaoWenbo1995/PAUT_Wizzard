@@ -1,0 +1,31 @@
+QMainWindow
+{
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(255, 170, 0);
+	border: 0px;
+}
+
+QTabBar::tab
+{
+	font: bold;
+	min-width: 30ex;
+	min-height: 10ex;
+}
+
+/*QTabBar::tab
+{
+	background-color: rgb(79, 88, 121);
+	color: black;
+	min-width: 30ex;
+	min-height: 10ex;
+}
+QTabBar::hover
+{
+	background-color: rgb(255, 255, 255, 100);
+}
+QTabBar::tab::selected
+{
+	border-color: white;
+	background: white;
+	color: red;
+}*/

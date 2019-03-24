@@ -1,0 +1,57 @@
+<RCC>
+  <qresource prefix="/">
+  	<file>qss/style.qss</file>
+    <file>image/buaa/top.png</file>
+    <file>image/buaa/mode-pa.png</file>
+    <file>image/buaa/mode-linear.png</file>
+    <file>image/buaa/mode-matrix.png</file>
+    <file>image/buaa/mode-ring.png</file>
+    <file>image/buaa/mode-turbine.png</file>
+    <file>image/buaa/mode-simu.png</file>
+    <file>image/PASoft/mode-pa.png</file>
+    <file>image/PASoft/mode-ring.png</file>
+    <file>image/pa/Acquire.png</file>
+    <file>image/pa/Scan (Encoder).png</file>
+    <file>image/pa/Scan (Robotic).png</file>
+    <file>image/pa/Scan (Timer).png</file>
+    <file>image/pa/Realtime Mode.png</file>
+    <file>image/pa/Analysis Mode.png</file>
+    <file>image/pa/Close.png</file>
+    <file>image/pa/Wizzard_Linear.png</file>
+    <file>image/pa/Setting_UT.png</file>
+    <file>image/pa/Setting_Gate.png</file>
+    <file>image/pa/Setting_Encoder.png</file>
+    <file>image/pa/Layout_A-S.png</file>
+    <file>image/pa/Layout_AS-B.png</file>
+    <file>image/pa/Layout_AS-C.png</file>
+    <file>image/pa/Layout_AS-BC.png</file>
+    <file>image/pa/Layout_AS-3DC.png</file>
+    <file>image/pa/File_LoadData.png</file>
+    <file>image/pa/File_SaveData.png</file>
+    <file>image/pa/File_LoadSolution.png</file>
+    <file>image/pa/File_SaveSolution.png</file>
+    <file>image/linear tfm/Close.png</file>
+    <file>image/linear tfm/Wizzard_Linear.png</file>
+    <file>image/linear tfm/File_SaveData.png</file>
+    <file>image/ring/Acquire.png</file>
+    <file>image/ring/Scan (Encoder).png</file>
+    <file>image/ring/Realtime Mode.png</file>
+    <file>image/ring/Analysis Mode.png</file>
+    <file>image/ring/Close.png</file>
+    <file>image/ring/Wizzard_Annular.png</file>
+    <file>image/ring/Layout_AB-C.png</file>
+    <file>image/ring/Layout_AC-3D.png</file>
+    <file>image/ring/Layout_BC-3D.png</file>
+    <file>image/ring/Layout_AB-C3D.png</file>
+    <file>image/ring/File_LoadData.png</file>
+    <file>image/ring/File_SaveData.png</file>
+    <file>image/pa/Probe.jpg</file>
+    <file>image/pa/Wedge.jpg</file>
+    <file>image/pa/Encoder.jpg</file>
+    <file>image/pa/AngleScan.jpg</file>
+    <file>image/pa/Horizon.jpg</file>
+    <file>image/pa/Vertical.jpg</file>
+    <file>image/pa/arc.jpg</file>
+    <file>image/pa/LinearScan.jpg</file>
+  </qresource>
+</RCC>
