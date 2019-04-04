@@ -558,7 +558,7 @@ PAConfigSolutionDlg::PAConfigSolutionDlg(QWidget* parent) : QDialog(parent)
 	path0 = path0.substr(0, pos0) + "/resource/image/pa/";
 
 	//探头楔块页面图片
-	QString photopath = QString::fromStdString(path0 + +"Probe.jpg");
+	QString photopath = QString::fromStdString(path0 + +"Probe.png");
 	QImage* imgProbe = new QImage;
 	imgProbe->load(photopath);
 	imageProbe->setPixmap(QPixmap::fromImage(*imgProbe));
@@ -571,27 +571,27 @@ PAConfigSolutionDlg::PAConfigSolutionDlg(QWidget* parent) : QDialog(parent)
 	imageWedge->setScaledContents(true);  //图片随label变化
 
 	//声束聚焦页面图片
-	photopath = QString::fromStdString(path0 + "AngleScan.jpg");
+	photopath = QString::fromStdString(path0 + "AngleScan.png");
 	QImage imgAngleScan(photopath);//读图片
 	AngleScan->setPixmap(QPixmap::fromImage(imgAngleScan));//图片加到label上
 	AngleScan->setScaledContents(true);//图片随label变化
 
-	photopath = QString::fromStdString(path0 + "LinearScan.jpg");
+	photopath = QString::fromStdString(path0 + "LinearScan.png");
 	QImage imgLinearScan(photopath);//读图片
 	LinearScan->setPixmap(QPixmap::fromImage(imgLinearScan));//图片加到label上
 	LinearScan->setScaledContents(true);//图片随label变化
 
-	photopath = QString::fromStdString(path0 + +"Vertical.jpg");
+	photopath = QString::fromStdString(path0 + +"Vertical.png");
 	QImage imgVertical(photopath);
 	vertical->setPixmap(QPixmap::fromImage(imgVertical));
 	vertical->setScaledContents(true);
 
-	photopath = QString::fromStdString(path0 + +"Horizon.jpg");
+	photopath = QString::fromStdString(path0 + +"Horizon.png");
 	QImage imgHorizon(photopath);
 	Horizon->setPixmap(QPixmap::fromImage(imgHorizon));
 	Horizon->setScaledContents(true);
 
-	photopath = QString::fromStdString(path0 + +"arc.jpg");
+	photopath = QString::fromStdString(path0 + +"arc.png");
 	QImage imgArc(photopath);
 	arc->setPixmap(QPixmap::fromImage(imgArc));
 	arc->setScaledContents(true);
